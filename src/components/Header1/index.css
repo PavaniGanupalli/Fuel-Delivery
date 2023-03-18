@@ -1,0 +1,49 @@
+.header-1-container {
+    height: 50px;
+    background-color: #06060c;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+  }
+  .clock-icon {
+    height: 25px;
+    width: 25px;
+    color: white;
+    padding: 5px;
+  }
+  .sub-head-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+  }
+  .header-1-sub {
+    display: flex;
+    justify-content: center;
+  }
+  .sub-head-1-icon {
+    height: 25px;
+    color: white;
+    width: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  p {
+    margin-top: 10px;
+  }
+  @media (max-width: 676px) {
+    .sub-head-1-icon {
+      height: 15px;
+      color: white;
+      width: 15px;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+  }
+
+.availability{
+    align-self: center;
+}
